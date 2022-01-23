@@ -4,9 +4,37 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Weather App</title>
 </head>
 <body>
+    <div id="header">
+    <h1>Weather App</h1>
+    <div id="search">
+        <label for="name"><b>City</b></label>
+        <input type="text" placeholder="New York" class="input" id="search-bar">
+        <button id="search-btn">Search</button>
+        <button id="CtF">Imperial/Metric</button>
+    </div>
+    </div>
+    <h2 id="city"></h2>
+    <div id="weather">
+        <div>
+            <h3>Temperature</h3>
+            <ul>
+                <li><p id="temp"></p></li>
+                <li ><p id="feel"></p></li>
+                <li ><p id="high-low"></p></li>
+            </ul>
+        </div>
+        <div>
+            <h3>Today</h3>
+            <ul>
+                <li><p id="skies"></p></li>
+                <li><p id="wind"></p></li>
+            </ul>
+        </div>
+    </div>
+    <img src="#">
     <script src="bundle.js"></script>
 </body>
 </html>

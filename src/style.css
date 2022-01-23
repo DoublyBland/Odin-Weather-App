@@ -1,0 +1,25 @@
+img {
+    display: none;
+}
+
+#header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+h2{
+    text-align: center;
+}
+
+img{
+    margin: auto;
+    max-width: 500px;
+    max-height: 200px;
+}
+
+#weather {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}

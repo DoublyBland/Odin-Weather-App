@@ -1,5 +1,4 @@
 import './style.css';
+import { weatherAPI } from './weather';
 
-function doThis() {
-  const i = 1;
-}
+weatherAPI();
